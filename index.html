@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <h1>Multiconverter.</h1>
+    <a id="numberinput">  <!-- needed for some reason -->
+
+    <p id="tutorial">
+      Click and hold the mouse button down while moving the elements.
+    </p>
+    <div style="height: fit-content; width: 100%">
+      <div id="buttons">
+        <div id="left" class="container"></div>
+        <a style="font-size: 300%">=</a>
+        <div id="right" class="container"></div>
+      </div>
+
+      <div class="icon-bar" id="iconBar">
+        <a id="length" class="iconBarButton" onclick="setActive(this, jsonObj.length)">Length</a>
+        <a class="iconBarButton" onclick="setActive(this, jsonObj.time)">Time</a>
+        <a class="iconBarButton" onclick="setActive(this, jsonObj.mass)">Mass</a>
+        <!-- <a class="iconBarButton" onclick="setActive(this, jsonObj.electric)">Electric current</a> -->
+        <a class="iconBarButton" onclick="setActive(this, jsonObj.temperature)">Temperature</a>
+        <!-- <a class="iconBarButton" onclick="setActive(this, jsonObj.substance)">Substance</a> -->
+        <!-- <a class="iconBarButton" onclick="setActive(this, jsonObj.luminosity)">Luminosity</a> -->
+        <a class="iconBarButton" onclick="
+  KillChildren('buttons', 'button');">kill children</a>
+  <a class="iconBarButton" onclick="
+    checkContainers()">checkcontainer</a>
+      </div>
+
+      <div class="button" id="placeholder">
+        <div class="buttonheader"></div>
+      </div>
+    </div>
+    <script src="data.json"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

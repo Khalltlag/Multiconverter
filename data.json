@@ -1,0 +1,134 @@
+{
+  "time": [
+    {
+      "name": "second",
+      "scale": "1",
+      "prefix": "s",
+      "system": "SI",
+      "metricprefix": false
+    },
+    {
+      "name": "minute",
+      "scale": "60",
+      "prefix": "m",
+      "system": "SI",
+      "metricprefix": false
+    },
+    {
+      "name": "hour",
+      "scale": 3600,
+      "prefix": "h",
+      "system": "SI",
+      "metricprefix": false
+    },
+    {
+      "name": "day",
+      "scale": 86400,
+      "prefix": "d",
+      "system": "SI",
+      "metricprefix": false
+    },
+    {
+      "name": "datetime",
+      "scale": 1,
+      "prefix": "d",
+      "system": "SI",
+      "metricprefix": false
+    }
+  ],
+
+  "length": [
+    {
+      "name": "metre",
+      "scale": 1,
+      "prefix": "m",
+      "system": "SI",
+      "metricprefix": true
+    },
+    {
+      "name": "mile",
+      "scale": 1609.34,
+      "prefix": "mile",
+      "system": "imperial",
+      "metricprefix": false
+    },
+    {
+      "name": "nautical mile",
+      "scale": 1852,
+      "prefix": "nautical mile",
+      "system": "imperial",
+      "metricprefix": false
+    }
+  ],
+
+  "mass": [
+    {
+      "name": "gram",
+      "scale": 1,
+      "prefix": "g",
+      "system": "CGS",
+      "metricprefix": true
+    },
+    {
+      "name": "kilogram",
+      "scale": 1,
+      "prefix": "Kg",
+      "system": "SI",
+      "metricprefix": false
+    }
+  ],
+
+  "electric current": [
+    {
+      "name": "ampere",
+      "scale": 1,
+      "prefix": "A",
+      "system": "SI",
+      "metricprefix": true
+    }
+  ],
+
+  "thermodynamic temperature": [
+    {
+      "name": "kelvin",
+      "scale": 1,
+      "prefix": "K",
+      "system": "SI",
+      "metricprefix": false
+    },
+    {
+      "name": "celsius",
+      "scale": 1,
+      "prefix": "c",
+      "system": "SI",
+      "metricprefix": false
+    },
+    {
+      "name": "rankine",
+      "scale": 1,
+      "prefix": "c",
+      "system": "SI",
+      "metricprefix": false
+    }
+  ],
+
+  "amount of substance": [
+    {
+      "name": "mole",
+      "scale": 1,
+      "prefix": "mol",
+      "system": "SI",
+      "metricprefix": true
+    }
+  ],
+
+  "luminous intensity": [
+    {
+      "name": "candela",
+      "scale": 1,
+      "prefix": "cd",
+      "system": "SI",
+      "metricprefix": true
+    }
+  ]
+}
